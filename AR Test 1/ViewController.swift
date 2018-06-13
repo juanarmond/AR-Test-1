@@ -12,7 +12,7 @@ import ARKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var sceneView: ARSCNView!
-    
+    let chair = Chair()
     override func viewDidLoad() {
         super.viewDidLoad()
         setupScene()
@@ -38,6 +38,9 @@ class ViewController: UIViewController {
         sceneView.session.run(configuration)
     }
 
-
+    func addChair(){
+        chair.loadModel()
+        sceneView.scene.rootNode.addChildNode(chair)
+    }
 }
 

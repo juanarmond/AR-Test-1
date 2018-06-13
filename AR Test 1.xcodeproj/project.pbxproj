@@ -14,6 +14,7 @@
 		3173932820D0F823007980C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3173932620D0F823007980C5 /* LaunchScreen.storyboard */; };
 		3173933320D0F823007980C5 /* AR_Test_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3173933220D0F823007980C5 /* AR_Test_1Tests.swift */; };
 		3173933E20D0F823007980C5 /* AR_Test_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3173933D20D0F823007980C5 /* AR_Test_1UITests.swift */; };
+		3173934F20D11D46007980C5 /* Chair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3173934E20D11D46007980C5 /* Chair.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3173933920D0F823007980C5 /* AR Test 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR Test 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3173933D20D0F823007980C5 /* AR_Test_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_Test_1UITests.swift; sourceTree = "<group>"; };
 		3173933F20D0F823007980C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3173934E20D11D46007980C5 /* Chair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chair.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				3173932420D0F823007980C5 /* Assets.xcassets */,
 				3173932620D0F823007980C5 /* LaunchScreen.storyboard */,
 				3173932920D0F823007980C5 /* Info.plist */,
+				3173934E20D11D46007980C5 /* Chair.swift */,
 			);
 			path = "AR Test 1";
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3173934F20D11D46007980C5 /* Chair.swift in Sources */,
 				3173932020D0F822007980C5 /* ViewController.swift in Sources */,
 				3173931E20D0F822007980C5 /* AppDelegate.swift in Sources */,
 			);
