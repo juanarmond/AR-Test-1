@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		316ECB0120D1347A0058890D /* chair.scn in Resources */ = {isa = PBXBuildFile; fileRef = 316ECB0020D1347A0058890D /* chair.scn */; };
 		3173931E20D0F822007980C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3173931D20D0F822007980C5 /* AppDelegate.swift */; };
 		3173932020D0F822007980C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3173931F20D0F822007980C5 /* ViewController.swift */; };
 		3173932320D0F822007980C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3173932120D0F822007980C5 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		316ECB0020D1347A0058890D /* chair.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = chair.scn; sourceTree = "<group>"; };
 		3173931A20D0F822007980C5 /* AR Test 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Test 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3173931D20D0F822007980C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3173931F20D0F822007980C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,7 +81,6 @@
 		3173931120D0F822007980C5 = {
 			isa = PBXGroup;
 			children = (
-				3173934B20D111F8007980C5 /* Objects */,
 				3173931C20D0F822007980C5 /* AR Test 1 */,
 				3173933120D0F823007980C5 /* AR Test 1Tests */,
 				3173933C20D0F823007980C5 /* AR Test 1UITests */,
@@ -100,13 +101,14 @@
 		3173931C20D0F822007980C5 /* AR Test 1 */ = {
 			isa = PBXGroup;
 			children = (
+				3173934B20D111F8007980C5 /* Objects */,
 				3173931D20D0F822007980C5 /* AppDelegate.swift */,
 				3173931F20D0F822007980C5 /* ViewController.swift */,
+				3173934E20D11D46007980C5 /* Chair.swift */,
 				3173932120D0F822007980C5 /* Main.storyboard */,
 				3173932420D0F823007980C5 /* Assets.xcassets */,
 				3173932620D0F823007980C5 /* LaunchScreen.storyboard */,
 				3173932920D0F823007980C5 /* Info.plist */,
-				3173934E20D11D46007980C5 /* Chair.swift */,
 			);
 			path = "AR Test 1";
 			sourceTree = "<group>";
@@ -132,6 +134,7 @@
 		3173934B20D111F8007980C5 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				316ECB0020D1347A0058890D /* chair.scn */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 			files = (
 				3173932820D0F823007980C5 /* LaunchScreen.storyboard in Resources */,
 				3173932520D0F823007980C5 /* Assets.xcassets in Resources */,
+				316ECB0120D1347A0058890D /* chair.scn in Resources */,
 				3173932320D0F822007980C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

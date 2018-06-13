@@ -36,6 +36,7 @@ class ViewController: UIViewController {
     func setupConfiguration() {
         let configuration = ARWorldTrackingConfiguration()
         sceneView.session.run(configuration)
+        addChair()
     }
 
     func addChair(){

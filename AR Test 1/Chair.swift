@@ -11,7 +11,7 @@ import SceneKit
 
 class Chair: SCNNode {
     func loadModel() {
-        guard let virtualObjectScene = SCNScene(named: "Drone.scn") else { return }
+        guard let virtualObjectScene = SCNScene(named: "chair.scn") else { return }
         let wrapperNode = SCNNode()
         for child in virtualObjectScene.rootNode.childNodes {
             wrapperNode.addChildNode(child)
