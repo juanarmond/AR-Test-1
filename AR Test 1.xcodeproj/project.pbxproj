@@ -37,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		316ECB0020D1347A0058890D /* chair.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = chair.scn; sourceTree = "<group>"; };
+		316ECB0420D13BB00058890D /* redchair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = redchair.usdz; sourceTree = "<group>"; };
 		3173931A20D0F822007980C5 /* AR Test 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Test 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3173931D20D0F822007980C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3173931F20D0F822007980C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +135,7 @@
 		3173934B20D111F8007980C5 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				316ECB0420D13BB00058890D /* redchair.usdz */,
 				316ECB0020D1347A0058890D /* chair.scn */,
 			);
 			path = Objects;
