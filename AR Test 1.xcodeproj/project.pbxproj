@@ -77,6 +77,7 @@
 		3173931120D0F822007980C5 = {
 			isa = PBXGroup;
 			children = (
+				3173934B20D111F8007980C5 /* Objects */,
 				3173931C20D0F822007980C5 /* AR Test 1 */,
 				3173933120D0F823007980C5 /* AR Test 1Tests */,
 				3173933C20D0F823007980C5 /* AR Test 1UITests */,
@@ -123,6 +124,13 @@
 				3173933F20D0F823007980C5 /* Info.plist */,
 			);
 			path = "AR Test 1UITests";
+			sourceTree = "<group>";
+		};
+		3173934B20D111F8007980C5 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62448Q4D93;
 				INFOPLIST_FILE = "AR Test 1/Info.plist";
@@ -439,6 +448,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Juan.AR-Test-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62448Q4D93;
 				INFOPLIST_FILE = "AR Test 1/Info.plist";
@@ -457,6 +468,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Juan.AR-Test-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
