@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		316ECB0120D1347A0058890D /* chair.scn in Resources */ = {isa = PBXBuildFile; fileRef = 316ECB0020D1347A0058890D /* chair.scn */; };
 		3173931E20D0F822007980C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3173931D20D0F822007980C5 /* AppDelegate.swift */; };
 		3173932020D0F822007980C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3173931F20D0F822007980C5 /* ViewController.swift */; };
 		3173932320D0F822007980C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3173932120D0F822007980C5 /* Main.storyboard */; };
@@ -16,6 +15,8 @@
 		3173933320D0F823007980C5 /* AR_Test_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3173933220D0F823007980C5 /* AR_Test_1Tests.swift */; };
 		3173933E20D0F823007980C5 /* AR_Test_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3173933D20D0F823007980C5 /* AR_Test_1UITests.swift */; };
 		3173934F20D11D46007980C5 /* Chair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3173934E20D11D46007980C5 /* Chair.swift */; };
+		31ED62CA20D284CB006CA68D /* Buttons in Resources */ = {isa = PBXBuildFile; fileRef = 31ED62C920D284CA006CA68D /* Buttons */; };
+		31ED62CC20D284F6006CA68D /* Objects in Resources */ = {isa = PBXBuildFile; fileRef = 31ED62CB20D284F6006CA68D /* Objects */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		316ECB0020D1347A0058890D /* chair.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = chair.scn; sourceTree = "<group>"; };
-		316ECB0420D13BB00058890D /* redchair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = redchair.usdz; sourceTree = "<group>"; };
 		3173931A20D0F822007980C5 /* AR Test 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Test 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3173931D20D0F822007980C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3173931F20D0F822007980C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +51,8 @@
 		3173933D20D0F823007980C5 /* AR_Test_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_Test_1UITests.swift; sourceTree = "<group>"; };
 		3173933F20D0F823007980C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3173934E20D11D46007980C5 /* Chair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chair.swift; sourceTree = "<group>"; };
+		31ED62C920D284CA006CA68D /* Buttons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Buttons; sourceTree = "<group>"; };
+		31ED62CB20D284F6006CA68D /* Objects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Objects; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +103,8 @@
 		3173931C20D0F822007980C5 /* AR Test 1 */ = {
 			isa = PBXGroup;
 			children = (
-				3173934B20D111F8007980C5 /* Objects */,
+				31ED62CB20D284F6006CA68D /* Objects */,
+				31ED62C920D284CA006CA68D /* Buttons */,
 				3173931D20D0F822007980C5 /* AppDelegate.swift */,
 				3173931F20D0F822007980C5 /* ViewController.swift */,
 				3173934E20D11D46007980C5 /* Chair.swift */,
@@ -130,15 +132,6 @@
 				3173933F20D0F823007980C5 /* Info.plist */,
 			);
 			path = "AR Test 1UITests";
-			sourceTree = "<group>";
-		};
-		3173934B20D111F8007980C5 /* Objects */ = {
-			isa = PBXGroup;
-			children = (
-				316ECB0420D13BB00058890D /* redchair.usdz */,
-				316ECB0020D1347A0058890D /* chair.scn */,
-			);
-			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3173932820D0F823007980C5 /* LaunchScreen.storyboard in Resources */,
+				31ED62CC20D284F6006CA68D /* Objects in Resources */,
 				3173932520D0F823007980C5 /* Assets.xcassets in Resources */,
-				316ECB0120D1347A0058890D /* chair.scn in Resources */,
 				3173932320D0F822007980C5 /* Main.storyboard in Resources */,
+				31ED62CA20D284CB006CA68D /* Buttons in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
