@@ -51,20 +51,5 @@ class ViewController: UIViewController {
         sceneView.scene.rootNode.addChildNode(chair)
     }
     
-    @IBAction func upLongPressed(_ sender: UILongPressGestureRecognizer) {
-        let action = SCNAction.moveBy(x: 0, y: kMovingLengthPerLoop, z: 0, duration: kAnimationDurationMoving)
-        execute(action: action, sender: sender)
-    }
-    
-    private func execute(action: SCNAction, sender: UILongPressGestureRecognizer) {
-        let loopAction = SCNAction.repeatForever(action)
-        if sender.state == .began {
-            chair.runAction(loopAction)
-        } else if sender.state == .ended {
-            chair.removeAllActions()
-        }
-    }
-    
-    
 }
 
