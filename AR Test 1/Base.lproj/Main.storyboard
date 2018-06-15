@@ -29,25 +29,38 @@
                                     <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zAj-do-uyv">
                                         <rect key="frame" x="46.666666666666664" y="6" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <gestureRecognizers/>
                                         <size key="titleShadowOffset" width="-6" height="-7"/>
                                         <state key="normal" title="UP" image="up.png">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="TCV-hd-n27" appends="YES" id="76C-gO-ey7"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQR-gz-k6Z">
                                         <rect key="frame" x="8" y="49" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="LEFT" image="left.png"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="TCV-hd-n27" appends="YES" id="MMN-Jd-BcA"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UsP-9v-lrW">
                                         <rect key="frame" x="46" y="91" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="DOWN" image="down.png"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="TCV-hd-n27" appends="YES" id="jzn-hw-lYe"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9D-K3-z77">
                                         <rect key="frame" x="85" y="49" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="RIGHT" image="right.png"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="TCV-hd-n27" appends="YES" id="FCy-De-jbk"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -63,21 +76,33 @@
                                         <state key="normal" title="UP" image="up.png">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="TCV-hd-n27" appends="YES" id="sMy-dg-Mme"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJP-w4-2P4">
                                         <rect key="frame" x="8" y="49" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="LEFT" image="left.png"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="TCV-hd-n27" appends="YES" id="0fe-9d-q1D"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZbU-bV-8vA">
                                         <rect key="frame" x="46" y="91" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="DOWN" image="down.png"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="TCV-hd-n27" appends="YES" id="jmb-Xd-tC6"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDV-Ff-vbM">
                                         <rect key="frame" x="85" y="49" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="RIGHT" image="right.png"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="TCV-hd-n27" appends="YES" id="GFp-fT-MaP"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -91,6 +116,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="TCV-hd-n27"/>
             </objects>
             <point key="canvasLocation" x="133.33333333333334" y="130.43478260869566"/>
         </scene>
